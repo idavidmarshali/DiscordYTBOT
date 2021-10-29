@@ -9,17 +9,6 @@ with open("config.json", "r") as file:
 intent = discord.Intents.all()
 bot = commands.Bot(command_prefix=prefix, intents=intent)
 
-"""
-{prefix}moveall
-
-{prefix}coinflip
-
-{prefix}kick member: discord.Member reason: str = ""
-
-{prefix}say to_say: str Done
-
-"""
-
 
 @bot.event
 async def on_ready():
